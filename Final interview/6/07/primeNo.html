@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime number</title>
+    <script>
+        function play(){
+        let s = Math.floor(Math.random()*100)
+       ///let n = parseInt(document.prompt('Enter a Value : '))
+       let n = getElementById('Value')
+        if(s===n){
+            return document.write('congatulation you are Pass')
+        }
+        else if(s > n){
+           return  document.write(`value is greater than the ${n}`)
+        }
+        else if(s < n){
+           return document.write(`value is less than the ${n}`)
+        }
+    }
+    
+    </script>
+</head>
+<body>
+    <form>
+        Guess No. :<br>
+        <input type="text" name="converterCtoF"><br>
+        <input type="submit" value="Submit"id="Value" onclick="play()">
+    </form>
+</body>
+</html>

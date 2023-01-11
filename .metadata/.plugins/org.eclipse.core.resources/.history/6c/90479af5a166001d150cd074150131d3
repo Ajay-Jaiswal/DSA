@@ -1,0 +1,33 @@
+package data;
+
+public class jay {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(int i=0;i<10;i++) {
+			System.out.println(i);
+		}
+		
+		add(20,30);
+		
+		
+		jay obj = new jay();
+		
+		int x = 500;
+		int y = 600;
+		
+		int result = obj.sub(x, y);
+		System.out.println(result);
+		
+	}
+	
+	public static void add(int x, int y) {
+		System.out.println(x+y);
+	}
+	
+	
+	public int sub(int x , int y) {
+		
+	}
+
+}

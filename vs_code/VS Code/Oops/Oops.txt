@@ -1,0 +1,24 @@
+Que. 1:  What is object oriented proggraming ?
+
+Ans :    Object-oriented programming (OOP) 
+
+         Object oriented programing is an engineering approach to build  a software systems.
+
+         Object oriented programming uses the concept of objects and classes, the main purpose of OOPS is to deal with real world entities using programming language. By using oops concept we can use inheritance, polymorphism, encapsulation, abstraction
+
+         OOPS is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior.
+Object-oriented programming aims to implement real-world entities like inheritance, hiding, polymorphism, etc in programming. The main aim of OOP is to bind together the data and the functions that operate on them so that no other part of the code can access this data except that function.
+
+FEATURES in OOPS :  Class
+                    Object
+                    Inheritance
+                    Polymorphism
+                    Encapsulation
+                    Abstraction
+
+
+*** Class : Class is a collection of objects or we can say that it is a blueprint for objects or logical entity. It doesnt take any memory or space untill create an object. 
+
+
+
+*** Object : Object is a instance of Class that executes the class 

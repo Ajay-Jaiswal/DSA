@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*I moved your javascript above the form because the code has to exist before you assign the onClick function!
+        */
+        function newDel() {
+          var zipVal = document.getElementById('zipcode').value;
+          var firstname = document.getElementById('firstname');
+          var lastname = document.getElementById('lastname');
+          var streetAddress = document.getElementById('address');
+          var email = document.getElementById('emailaddress');	
+
+          if(zipVal == ""){
+              alert("Please provide a zip code.");
+              return false;
+          } else {
+              //Now call your zipCalc() function:
+              zipCalc(zipVal);
+          }
+        }
+    
+        function zipCalc(zip) {
+          if (zip == 32231) {
+              alert("Delivery fee will be 2 dollars.");
+          }
+        }
+    </script>
+
+    <form action="#" method="post" id="delInfo">
+    	Zip Code:<br>
+    	<input type="text" name="zipcode" id="zipcode"><br>
+    	<p><i>Delivery fee will be calculated based on zip code</i><p>
+    	First Name:<br>
+    	<input type="text" name="firstname" id="firstname"></br>
+    	Last Name:<br>
+    	<input type="text" name="streetaddress" id="lastname"></br>
+    	Street Address:<br>
+    	<input type="text" name="zipcode" id="address"></br>
+    	Email Address:<br>
+    	<input type="text" name="email"></br>
+    	<input type="submit" onClick="newDel()" value="Submit">
+    </form>
+    
+</body>
+</html>

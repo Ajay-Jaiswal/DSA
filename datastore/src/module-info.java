@@ -1,0 +1,2 @@
+module datastore {
+}
